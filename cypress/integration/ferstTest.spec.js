@@ -37,6 +37,7 @@
 //     cy.visit("https://www.facebook.com/");
 //     cy.get('[data-testid="open-registration-form-button"][role="button"]')
 // })
+//comment
 it('Using Get with Find and Eq', () => {
     cy.visit("https://next.privat24.ua/deposit/open");
     cy.get('table').find('td').find('div').find('button').eq('5');
